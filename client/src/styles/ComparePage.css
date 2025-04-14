@@ -1,0 +1,50 @@
+.compare-container {
+    padding: 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .compare-container select {
+    padding: 8px;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .pokemon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .pokemon-card {
+    width: 110px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+
+
+
+
+
+  
+  .pokemon-card.both {
+  background-color: #d4edda; /* green */
+}
+
+.pokemon-card.yours {
+  background-color: #cfe2ff; /* blue */
+}
+
+.pokemon-card.theirs {
+  background-color: #ffe0b2; /* orange */
+}
+
+.pokemon-card.none {
+  background-color: #f8d7da; /* red */
+}

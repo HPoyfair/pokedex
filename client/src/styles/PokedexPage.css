@@ -1,0 +1,88 @@
+.pokedex-container {
+    padding: 2rem 1rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  
+  .pokedex-header select,
+  .pokedex-header input,
+  .pokedex-header button {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 1rem;
+    background-color: white;
+  }
+  
+  .pokedex-header {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  
+  .pokedex-header button {
+    background-color: #007bff;
+    
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pokedex-header button:hover {
+    background-color: #0056b3;
+    
+  }
+  
+  .pokemon-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  
+  .pokemon-card {
+    border: 2px solid black; /* <- changed from gray */
+    border-radius: 8px;
+    width: 110px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+  
+  
+  .pokemon-card:hover {
+    transform: scale(1.05);
+    border-color: #007bff;
+  }
+  
+  .pokemon-card.owned {
+    background-color: #cce5ff;
+    border-color: #3399ff;
+  }
+  
+  .search-results {
+    margin-bottom: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .search-results li button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .completion-text {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
